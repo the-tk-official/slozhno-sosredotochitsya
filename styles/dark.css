@@ -5,8 +5,31 @@
 */
 
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+    /* сохраните этот селектор в приведённом виде.
+      Так стили написанные ниже будут иметь больший вес,
+      чем стили в медиазапросе предпочтений пользователя
+    */
+
+    background-image: url(../images/cover-image-dark.png);
+
+    --additional-bg-color: #ff0070;
+    --main-bg-color: #000028;
+
+    --additional-header-color: #ff0070;
+    --main-header-color: #db00ff;
+
+    --additional-text-color: #000028;
+    --main-text-color: #f1b2ce;
+
+    --button-color: #ff0070;
+
+    --decoration-color: #ff0070;
+
+    --text-shadow-color: #ff0070;
+
+    --hover-color: rgba(255, 0, 112, 0.4);
+}
+
+.theme_dark .rec {
+    display: inline;
 }
